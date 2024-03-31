@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body {
+
+	font-family: 'Nanum+Gothic',sans-serif;
+
+
+	background: #000;
+}
+
+a {
+
+	text-decoration: none;
+	color: #808080;
+}
+
+
+.left{
+    color:  #FFFFFF;
+    margin-left: 20px;
+    margin-top: -60px;
+
+    text-align: left;
+
+
+}
+.right {
+	color: #808080;
+	margin-top: 40px;
+	margin-right: 60px;
+
+
+    text-align : right;
+}
+.logo {
+	vertical-align: -12px;
+
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+}
+
+.side-panel {
+
+	color:#808080;
+	width: fit-content;
+    margin-left: 30px;
+
+}
+
+.right2:hover {
+
+
+	color: #fff;
+}
+
+.option-1 {
+
+	max-width: 60px;
+}
+
+.option-2 {
+
+	max-width: 60px;
+}
+
+.option-3 {
+
+	max-width: 120px;
+}
+
+.option-1:hover {
+
+	color: #fff;
+	
+	}
+
+.option-2:hover {
+
+	color: #fff;
+	
+	}	
+
+.option-3:hover {
+
+	color: #fff;
+	
+	}
+
+
+.Playlist-box {
+
+	background: #343433;
+    height: 180px;
+    width: 80%;
+    border-radius: 10px;
+    display: block;
+    border-right: 2px;
+    
+    border-bottom: 1px solid #3c3a3a;
+    margin-left: 30px;
+	}
+
+
+#Playlist-header-1 {
+
+  padding-left: 20px;
+}
+
+#Playlist-header-2 {
+
+    padding-left: 20px;
+    margin-bottom: 18px;
+}
+
+.button-1 {
+
+	height: 40px;
+    width: 120px;
+    border: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.link-1 {
+
+	color: #000000;
+}
+
+.scroll-1 {
+
+	max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: pink lightblue;
+
+    width: fit-content;
+    border: 2px solid #000;
+
+}
+
+.Playlist-box-1 {
+
+	background: #343433;
+    height: 190px;
+    width: 80%;
+    border-radius: 10px;
+    display: block;
+    border-right: 2px;
+     margin-top: 65px;
+    border-bottom: 1px solid #3c3a3a;
+    margin-left: 30px;
+	}
+
+#Playlist-header-3 {
+
+	margin: 13px;
+    margin-left: 2px;
+    padding-left: 20px;
+}
+
+#Playlist-header-4 {
+    margin: 13px;
+    margin-left: 2px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+	
+}
+
+.bottom-links {
+
+	color: #808080; 
+	font-size: 13px;
+
+    width: fit-content;
+    margin-left: 2px;
+    padding-left: 20px;
+}
+
+.main-contents {
+
+	margin-left: 400px;
+    margin-top: -500px;
+    font-size: 15px;
+    color: white;
+    width: fit-content;
+    height: 400px;
+    scrollbar-color: red green;
+     margin-left: 520px;
+}
+
+.artists-1 {
+	height: 150px;
+	width: 150px;
+	border-radius: 10%;
+}
+
+.artists-1:hover {
+	height: 170px;
+	width: 170px;
+	border-radius: 10%; 
+}
+
+.dua-lipa {
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: -153px;
+    border-radius: 10px;
+}
+
+
+
+.dua-lipa:hover{
+	height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 10px;
+}
+
+.weeknd{
+
+    height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: -150px;
+    border-radius: 10px;
+
+
+}
+
+.weeknd:hover{
+	height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 10px;
+}
+
+.ariana{
+    height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 35px;
+    margin-top: -150px;
+    border-radius: 10px;
+}
+
+.ariana:hover{
+	height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 10px;
+}
+
+.demi{
+    height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 35px;
+    margin-top: -150px;
+    border-radius: 10px;
+}
+.demi:hover{
+	height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 10px;
+}
+.bruno{
+    height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 35px;
+    margin-top: -150px;
+    border-radius: 10px;
+
+}
+.bruno:hover{
+	height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 10px;
+}
+.taylor{
+    height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 35px;
+    margin-top: -150px;
+    border-radius: 10px;
+
+}
+.taylor:hover{
+	height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 10px;
+}
+
+.album-1{
+
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 0px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+
+.album-1:hover {
+
+    height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+
+}
+.album-2 {
+
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+
+.album-2:hover {
+    height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.album-3 {
+
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+.album-3:hover {
+    height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.album-4 {
+
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+.album-4:hover {
+    height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.album-5 {
+
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+.album-5:hover {
+    height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.album-6 {
+
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+.album-6:hover {
+    height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.album-7 {
+
+	height: 150px;
+    width: 150px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 30px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+.album-7:hover {
+    height: 170px;
+	width: 170px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.login {
+
+	height: 40px;
+    width: 100px;
+    border: 0px;
+    margin-top: 0px;
+    font-weight: bolder;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.box-1{
+	background: #343433;
+    height: 255px;
+    width: 12%;
+    border-radius: 10px;
+    display: block;
+    
+    
+}
+.box-2{
+	background: #343433;
+    height: 255px;
+    width: 12%;
+    border-radius: 10px;
+    display: block;
+    margin-left: 180px;
+    margin-top: -255px;
+}
+.box-3{
+	background: #343433;
+    height: 255px;
+    width: 12%;
+    border-radius: 10px;
+    display: block;
+    
+    
+    margin-left: 360px;
+    margin-top: -255px;
+}
+.box-4{
+	background: #343433;
+    height: 255px;
+    width: 12%;
+    border-radius: 10px;
+    display: block;
+    
+    margin-left: 540px;
+    margin-top: -255px;
+}
+.box-5{
+	background: #343433;
+    height: 255px;
+    width: 12%;
+    border-radius: 10px;
+    display: block;
+    
+    margin-left: 722px;
+    margin-top: -255px;
+}
+.box-6{
+	    background: #343433;
+    height: 255px;
+    width: 12%;
+    border-radius: 10px;
+    display: block;
+    margin-left: 905px;
+    margin-top: -255px;
+}
+.box-7{
+	    background: #343433;
+    height: 255px;
+    width: 12%;
+    border-radius: 10px;
+    display: block;
+    margin-left: 1090px;
+    margin-top: -255px;
+}
+
+.playlist1{
+	height: 150px;
+    width: 130px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+
+
+}
+
+.playlist2{
+	height: 150px;
+    width: 130px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+
+
+}
+.playlist3{
+	height: 150px;
+    width: 130px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+
+
+}
+.playlist4{
+	height: 150px;
+    width: 130px;
+    background-size: cover !important;
+    background-position: center !important;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+
+
+}
